@@ -19,7 +19,7 @@ public static class Wallpaper
     {
         RegistryKey key = Registry.CurrentUser.OpenSubKey(@"Control Panel\Desktop", true);
 
-        key.SetValue(@"WallpaperStyle", 2.ToString());
+        key.SetValue(@"WallpaperStyle", 1.ToString());
         key.SetValue(@"TileWallpaper", 0.ToString());
 
 
