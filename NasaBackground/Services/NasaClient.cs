@@ -20,6 +20,6 @@ public class NasaClient
         Console.WriteLine(result.explanation);
 
         byte[] imageBytes = await client.GetByteArrayAsync(result.hdurl);
-        File.WriteAllBytes(@"C:\Users\julie\Pictures\Nasa\Today.jpg", imageBytes);
+        File.WriteAllBytes(@"C:\Users\kw5285\OneDrive - EQUANS\Images\NASA\Today.jpg", imageBytes);
     }
 }

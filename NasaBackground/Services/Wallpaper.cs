@@ -25,7 +25,7 @@ public static class Wallpaper
 
         SystemParametersInfo(SPI_SETDESKWALLPAPER,
             0,
-            @"C:\Users\julie\Pictures\Nasa\Today.jpg",
+            @"C:\Users\kw5285\OneDrive - EQUANS\Images\NASA\Today.jpg",
             SPIF_UPDATEINIFILE | SPIF_SENDWININICHANGE);
     }
 }
